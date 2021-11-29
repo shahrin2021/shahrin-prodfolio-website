@@ -1,0 +1,78 @@
+.home-img-box{
+    border: 3px solid #f448f4;
+    border-radius: 50%;
+    max-width: 300px;
+    height: 300px;
+    background-color:#1E1E1E ;
+}
+
+.homeImg-item {
+    border: 2px solid rgb(107, 0, 128);
+    border-radius: 50%;
+    max-width: 295px;
+    height: 295px;
+}
+
+.homeImg-item img{
+    max-width: 100%;
+}
+
+.banner-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a6c4b3;
+}
+
+.banner-name-title{
+    color:#9e75f0;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-subtitle{
+    color: #e25903;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}           
+
+.home-btn-hire{
+    border: 3px solid #75e8f5;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 6px 25px;
+    border-radius: 20px;
+    transition: .3s;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-btn-hire:hover{
+    border: 3px solid #3a81f2; 
+    transition: .3s;
+}
+.home-btn-resume{
+    border: 3px solid hsl(290, 88%, 50%);
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 6px 25px;
+    border-radius: 20px;
+    transition: .3s;
+    background-color: #c560e1;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-btn-resume:hover{
+    border: 3px solid #3a81f2; 
+    transition: .3s;
+}
+
+.home-btns{
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+.aboutImage img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.About-title{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.About-title::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 130px;
+    height: 5px;
+    background-color: indigo;
+}
+
+.about-title{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+   
+}
+
+.about-icon{
+    font-size: 20px;
+    color: rgb(218, 19, 19);
+}
+.about-me{
+    margin: 0;
+    margin-left: 10px;
+}

@@ -1,0 +1,45 @@
+.skillBox img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.skillBox{
+    border: 2px solid #1E1E1E;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #1E1E1E;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.skillBox h5{
+    margin-top: 20px;
+}
+
+.skillBox:hover .skill-img{
+    transform: scale(.5);
+    
+}
+
+.skill-title{
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+
+
+}
+
+.skill-title::after{
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+
+}
