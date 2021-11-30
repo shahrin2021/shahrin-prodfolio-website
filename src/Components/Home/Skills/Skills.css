@@ -29,6 +29,7 @@
     margin: 0 auto;
     margin-bottom: 60px;
     text-align: center;
+    color: #66DE93;
 
 
 }
@@ -36,10 +37,14 @@
 .skill-title::after{
     content: "";
     position: absolute;
-    top: 45px;
-    left: 45px;
+    top: 48px;
+    left: 46px;
     width: 100px;
     height: 5px;
-    background-color: red;
+    background-color: #D83A56;
 
+}
+
+.skill-area{
+    margin-top: 80px;
 }

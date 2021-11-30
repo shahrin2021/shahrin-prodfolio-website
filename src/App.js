@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Skills from './Components/Home/Skills/Skills';
 import Project from './Components/Project/Project';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Router>
       <Banner></Banner>
       <About></About>
+      <Services/>
       <Skills></Skills>
       <Project></Project>
         <Routes>

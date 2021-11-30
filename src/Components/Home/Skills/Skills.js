@@ -1,77 +1,71 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import html from '../../../image/html.png'
-import react from '../../../image/react.png'
-import css from '../../../image/css.png'
-import node from '../../../image/node.png'
-import mongo from '../../../image/mongo.png'
-import boot from '../../../image/boot.jpg'
-import ui from '../../../image/m-ui.png'
-import js from '../../../image/js.png'
-import tail from '../../../image/tailwind.png'
+import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
+import dev from '../../../image/developer.jpg'
 import './Skills.css'
 
 const Skills = () => {
     return (
-       <div>
+       <div className='skill-area'>
             <Container>
                 <h2 className='skill-title'>My Skills</h2>
                 <Row>
-                    <Col lg={4} md={4} sm={6} xs={12} >
-                            <div className='skillBox'>
-                                <img className='skill-img' src={html} alt="" />
-                                <h5>HTML</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12} >
-                            <div className='skillBox'>
-                                <img className='skill-img'src={css} alt="" />
-                                <h5>Css</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox' >
-                                <img className='skill-img' src={boot} alt="" />
-                                <h5>Bootstrap</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img' src={tail} alt="" />
-                                <h5>Tailwind Css</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img' src={js} alt="" />
-                                <h5>JavaScript</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img' src={react} alt="" />
-                                <h5>React Js</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img' src={ui} alt="" />
-                                <h5>Material Ui</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img'src={node} alt="" />
-                                <h5>Node js</h5>
-                            </div>
-                    </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}>
-                            <div className='skillBox'>
-                                <img className='skill-img' src={mongo} alt="" />
-                                <h5>Mongo Db</h5>
-                            </div>
-                    </Col>
                   
+                  <Col lg={5} md={6} sm={12} className="d-flex justify-content-between align-items-center">
+                    <div className='skill-img'>
+                        <img style={{maxWidth:'100%'}} src={dev} alt="" />
+                    </div>
+                  </Col>
+                  <Col lg={7} md={6} sm={12}>
+                    <div className='progressBar'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Html</h6>
+                        <h6 className='text-white'>90%</h6>
+                        </div>
+                        <ProgressBar animated now={90} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Css</h6>
+                        <h6 className='text-white'>80%</h6>
+                        </div>
+                        <ProgressBar animated now={80} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Javascript</h6>
+                        <h6 className='text-white'>65%</h6>
+                        </div>
+                        <ProgressBar animated now={65} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>React js</h6>
+                        <h6 className='text-white'>55%</h6>
+                        </div>
+                        <ProgressBar animated now={55} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Node js</h6>
+                        <h6 className='text-white'>45%</h6>
+                        </div>
+                        <ProgressBar animated now={45} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Express js</h6>
+                        <h6 className='text-white'>50%</h6>
+                        </div>
+                        <ProgressBar animated now={50} />
+                    </div>
+                    <div className='progressBar mb-2'>
+                        <div className="d-flex justify-content-between mb-1">
+                        <h6 className='text-white'>Mongo Db</h6>
+                        <h6 className='text-white'>45%</h6>
+                        </div>
+                        <ProgressBar animated now={45} />
+                    </div>
+                  </Col>
                    
                 </Row>
             </Container>

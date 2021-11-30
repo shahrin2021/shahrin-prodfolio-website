@@ -1,0 +1,35 @@
+.service-box{
+    border: 1px solid #0F2C67;
+    box-shadow: 3px 5px 7px 0;
+    padding: 20px;
+    height: 100%;
+    transition: .3s;
+}
+
+.service-title{
+    color: #998CEB;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.service-details{
+    color: #fff;
+    font-size: 16px;
+}
+
+.service-box:hover{
+    box-shadow: 3px 4px 3px 0 #28FFBF;
+    transition: .3s;
+}
+
+.services-heading h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #D47AE8;
+    margin-bottom: 50px;
+
+}

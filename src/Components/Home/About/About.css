@@ -3,16 +3,16 @@
     border-radius: 10px;
 }
 
-.About-title{
+.About-heading{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
-.About-title::after{
+.About-heading::after{
     content: "";
     position: absolute;
-    top: 40px;
+    top: 45px;
     left: 0;
     width: 130px;
     height: 5px;
@@ -23,7 +23,15 @@
     font-size: 18px;
     font-weight: 400;
     margin-right: 10px;
+   ;
    
+}
+
+.About-heading{
+    color: #5C33F6;
+    font-size: 36px;
+    
+
 }
 
 .about-icon{
@@ -33,4 +41,8 @@
 .about-me{
     margin: 0;
     margin-left: 10px;
+}
+
+.about-section{
+    margin-bottom: 80px;
 }

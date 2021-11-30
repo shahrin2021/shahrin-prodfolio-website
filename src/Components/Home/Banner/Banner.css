@@ -4,6 +4,12 @@
     max-width: 300px;
     height: 300px;
     background-color:#1E1E1E ;
+    transition: .3s;
+}
+
+.home-img-box:hover{
+    border: 3px solid #5C33F6;  
+    transition: .3s;
 }
 
 .homeImg-item {
@@ -22,7 +28,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a6c4b3;
+    background-color: #1A1A1A;
+    margin-bottom: 80px;
 }
 
 .banner-name-title{
