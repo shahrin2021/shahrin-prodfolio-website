@@ -1,4 +1,6 @@
 .App{
   font-family: 'Open Sans', sans-serif;
   background-color: #1a1a1a;
+  scroll-behavior: smooth;
+  font-family: 'Comforter Brush', cursive;
 }

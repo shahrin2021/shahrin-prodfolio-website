@@ -1,48 +1,30 @@
-import React from "react";
-import { Container, Row } from 'react-bootstrap';
-import ProgressBar from "@ramonak/react-progress-bar";
-// Import Swiper styles
-
-
-
+import Button from '@restart/ui/esm/Button';
+import React from 'react';
+import { Card, Col } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import './Project.css'
-
-
-  
-const Project = () => {
+const Project = ({project}) => {
     return (
-        <div>
-            <Container>
-               
-            </Container>
-        </div>
+        <Col lg={4} md ={6} sm={12} style={{display:"flex",justifyContent:"center"}}>
+            <Card className='projectCard' style={{ maxWidth: '22rem' }}>
+                <div  className='projects-img' style={{height:"200px"}} >
+                <Card.Img style={{height:"100%",objectFit:'cover'}} variant="top" src={project.img}/>
+                <div className='Project-details'>
+                    <NavLink to ={`/project/${project.id}`}>
+                <Button  className='btn btn-success'>Details</Button>
+                </NavLink>
+                </div>
+                </div>
+                <Card.Body>
+                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Text>
+                    {project.description}
+                    </Card.Text>
+                
+                </Card.Body>
+            </Card>
+        </Col>
     );
 };
 
 export default Project;
-
-{/* <div className='text-center'  >
-<Swiper effect={'coverflow'} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} coverflowEffect={{
-"rotate": 50,
-spacebetween:40,
-"stretch": 0,
-"depth": 100,
-"modifier": 1,
-"slideShadows": true
-}} pagination={true} className="mySwiper">
-<div className='project'>
-<SwiperSlide><img className='project-img' src={project1} /></SwiperSlide>
-</div>
-
-<div className='project'>
-<SwiperSlide ><img className='project-img' src={project2} /></SwiperSlide>
-</div>
-
-<div className='project'>
-<SwiperSlide><img className='project-img' src={project3} /></SwiperSlide>
-
-</div>
-
-
-</Swiper>
-</div> */}

@@ -1,0 +1,22 @@
+.contact__content{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #c6c4f1;
+    background-color: #c6c4f1;
+}
+
+.contact__input{
+    width: 100%;
+    color: #1F1D36;
+    border: none;
+    outline: none;
+    background-color: #c6c4f1;
+    padding: .25rem;
+    margin-bottom: 10px;
+
+}
+
+.contact__lable{
+   color:#fff;
+
+}

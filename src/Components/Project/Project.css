@@ -1,11 +1,28 @@
-/* .project{
-    height: 300px;
-    width: 300px;
-    
+
+
+.projects-area{
+    margin-top: 80px;
 }
 
-.project-img{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-} */
+.projects-img{
+    position: relative;
+}
+
+.Project-details{
+    position: absolute;
+    top: 160px;
+    left:40% ;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0; 
+    transition: .3s; 
+   
+}
+
+.projects-img:hover .Project-details{
+    visibility: visible;
+    opacity: 1;
+    top: 100px;
+    transition: .3s;
+}

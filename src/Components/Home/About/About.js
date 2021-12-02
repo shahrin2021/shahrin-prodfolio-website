@@ -13,7 +13,7 @@ import {
 
 const About = () => {
     return (
-        <div className="about-section">
+        <div className="about-section" id="about">
             <Container>
                 <Row>
                     <Col sm={12} lg={6} md={6} style={{display:"flex", justifyContent:"center",alignItems:'center',}}>
@@ -26,7 +26,7 @@ const About = () => {
                     <div className='about-text-area'>
                     
                         <h2 className='About-heading'>About Us</h2>
-                        <p class="about__discription text-white">Full-stack web developer, with extensive knowldge and year of
+                        <p className="about__discription text-white">Full-stack web developer, with extensive knowldge and year of
                         experience, working in web
                         technologist, delivering quality work</p>
                        

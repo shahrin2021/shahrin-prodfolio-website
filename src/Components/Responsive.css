@@ -1,0 +1,35 @@
+@media (max-width:688px){
+    .bannar-about-text {
+        margin-bottom: 40px;
+       
+    }
+
+    .banner-area{
+        padding: 300px 0;
+    }
+
+    .banner-name-title{
+        font-size: 40px;
+    }
+
+    .aboutImage{
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px !important;
+        height: auto;
+    }
+
+    .skill-img{
+        margin-bottom: 30px;
+    }
+
+    .projectCard{
+        margin-bottom: 30px !important;
+        height: auto;
+    }
+}
+
+.projects-img{
+    height: 100%;
+}

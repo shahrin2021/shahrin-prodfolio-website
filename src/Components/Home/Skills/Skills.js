@@ -5,7 +5,7 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-       <div className='skill-area'>
+       <div className='skill-area' id="skills" style={{marginBottom:"80px"}}>
             <Container>
                 <h2 className='skill-title'>My Skills</h2>
                 <Row>
@@ -16,7 +16,7 @@ const Skills = () => {
                     </div>
                   </Col>
                   <Col lg={7} md={6} sm={12}>
-                    <div className='progressBar'>
+                    <div className='progressBar mb-2'>
                         <div className="d-flex justify-content-between mb-1">
                         <h6 className='text-white'>Html</h6>
                         <h6 className='text-white'>90%</h6>

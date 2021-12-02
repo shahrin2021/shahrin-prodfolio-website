@@ -9,15 +9,15 @@ const Banner = () => {
   
     
     return (
-        <div className='banner-area'>
-            <Container>
+        <div style={{padding:'160px 0'}}  >
+            <Container >
                 <Row>
                     <Col lg={6} md={6} sm={12} style={{display:"flex", justifyContent:"center",alignItems:'center', }}>
            
                         <div  className='bannar-about-text box' >
                             <h3 className='banner-subtitle'>Hi! I'm </h3>
                             <h1 className='banner-name-title'>Md Shahrin Bin Selim</h1>
-                            <h4 style={{fontSize:'40px' ,color:'#D47AE8'}}>
+                            <h4 style={{fontSize:'32px' ,color:'#D47AE8'}}>
                                 <Typical
                                     steps={['Web Desiner!', 2000, 'Web Developer!',2000,  ]}
                                     loop={Infinity}
@@ -31,7 +31,7 @@ const Banner = () => {
                          
                             <div className='home-btns'>
                                 <button className='home-btn-hire'>Hire Me</button>
-                                <button className='home-btn-resume'>Resume</button>
+                                <a target='_blank' style={{textDecoration:'none'}}  href='https://drive.google.com/file/d/1mjMpxNsk0F18fsG4AEfkxDoaJ5CyCYcm/view?usp=sharing' className='home-btn-resume'>Resume</a>
                             </div>
 
                             
